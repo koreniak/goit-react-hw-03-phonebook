@@ -8,7 +8,7 @@ const ContactItem = ({ name, number, onDeleteContact }) => (
     <p>{name}: {number}</p>
     <DeleteButton type="button" onClick={onDeleteContact}>Delete</DeleteButton>
   </ContItem>
-)
+);
 
 ContactItem.propTypes = {
   name: PropTypes.string.isRequired,
